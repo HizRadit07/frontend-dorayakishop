@@ -17,6 +17,9 @@ export default class Navbar extends Component{
                         </li>
                         <li className="navbar=item">
                             <Link to="/new-dorayaki" className="nav-link">Create New Dorayaki</Link>
+                        </li>
+                        <li className="navbar=item">
+                            <Link to="/new-stok" className="nav-link">Create New Stok</Link>
                         </li>                                                
                     </ul>
                 </div>
