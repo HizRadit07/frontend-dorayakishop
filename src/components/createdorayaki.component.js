@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
+import axios from 'axios';
 
 export default class CreateDorayaki extends Component {
     constructor(props) {
@@ -44,6 +45,10 @@ export default class CreateDorayaki extends Component {
         }
 
         console.log(dorayaki);
+
+        axios.post('http://localhost:5000/dorayaki/add',dorayaki)
+            .then(res => console.log(res.data))
+            .then(alert("New dorayaki submitted"));
 
         this.setState({
             rasa: '',

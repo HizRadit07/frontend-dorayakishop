@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
+import axios from 'axios';
 
 export default class CreateToko extends Component {
     constructor(props){
@@ -51,6 +52,10 @@ export default class CreateToko extends Component {
         }
 
         console.log(newtoko);
+
+        axios.post('http://localhost:5000/toko-dorayaki/add',newtoko)
+            .then(res => console.log(res.data))
+            .then(alert("New toko submitted"));
 
         this.setState({
             nama: '',
