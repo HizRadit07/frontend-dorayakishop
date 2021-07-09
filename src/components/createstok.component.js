@@ -63,6 +63,11 @@ export default class CreateStok extends Component {
             .then(alert("New stok submitted"));
 
         console.log(stok);
+
+        this.setState({
+            nama: '',
+            rasa:''
+        });
     }
     render() {
         return (
