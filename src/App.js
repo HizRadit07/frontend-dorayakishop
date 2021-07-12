@@ -21,7 +21,7 @@ function App() {
         <Route path = "/new-dorayaki" component={CreateDorayaki} />
         <Route path = "/new-stok" component = {CreateStok}/>
         <Route path = "/edit/:id" component={EditStok}/>
-        <Route path="/move-stok" component={MoveStok}/>
+        <Route path="/move-stok/:id" component={MoveStok}/>
     </div>
     </Router>
   );

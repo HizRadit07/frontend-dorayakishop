@@ -8,7 +8,7 @@ const Stok = props => (
         <td>{props.stok.nama}</td>
         <td>{props.stok.rasa}</td>
         <td>{props.stok.jumlah}</td>
-        <td><Link to={"/edit/"+props.stok._id}>edit jumlah</Link></td>
+        <td><Link to={"/edit/"+props.stok._id}>edit jumlah</Link> | <Link to={"/move-stok/"+props.stok._id}>move stok</Link></td>
     </tr>
 )
 
