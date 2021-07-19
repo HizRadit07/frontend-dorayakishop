@@ -20,6 +20,9 @@ export default class Navbar extends Component{
                         </li>
                         <li className="navbar=item">
                             <Link to="/new-stok" className="nav-link">Create New Stok</Link>
+                        </li>
+                        <li className="navbar=item">
+                            <Link to="/findtoko" className="nav-link">Find Toko</Link>
                         </li>                                                 
                     </ul>
                 </div>

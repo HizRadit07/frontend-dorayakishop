@@ -9,6 +9,7 @@ import CreateDorayaki from "./components/createdorayaki.component";
 import CreateStok from "./components/createstok.component";
 import EditStok from "./components/editstok.component";
 import MoveStok from "./components/movestok.component";
+import FindToko from "./components/findtoko.component";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path = "/new-stok" component = {CreateStok}/>
         <Route path = "/edit/:id" component={EditStok}/>
         <Route path="/move-stok/:id" component={MoveStok}/>
+        <Route path="/findtoko" component={FindToko}/> 
     </div>
     </Router>
   );
