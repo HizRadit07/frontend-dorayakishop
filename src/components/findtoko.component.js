@@ -68,6 +68,7 @@ export default class FindToko extends Component{
                         </div>
                     </form>
                     <br/>
+                    <p>note: masukan nama provinsi/nama kota dengan huruf besar, contoh: Jawa Barat</p>
                     <table className="table">
                     <thead className="thead">
                         <tr>
