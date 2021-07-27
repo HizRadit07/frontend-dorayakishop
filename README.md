@@ -13,6 +13,7 @@ Ada 6 komponen utama frontend yang dibuat untuk memenuhi spesifikasi tugas. Untu
 
 # Bonus Component
 1. findtoko.component: component untuk melakukan pencarian toko berdasar provinsi atau kecamatan, note: pencarian hanya dapat dilakukan jika nama lokasi benar dan case sensitive, misal provinsi harus "Jawa Barat".
+2. Aplikasi sudah dideploy dan dapat diakses lewat link berikut: https://my-dorayakishop-13519087.herokuapp.com/
 
 # Cara Menjalankan
 Untuk menjalankan komponen frontend dengan sesuai, backend server juga harus dijalankan. Backend server dapat diambil dari link berikut: https://github.com/HizRadit07/backend-dorayakishop
